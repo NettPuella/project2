@@ -2,7 +2,7 @@ package banking2;
 //출력
 import java.util.Scanner;
 
-public class BankingSystemMain {
+public class BankingSystemMain {  
 	
 	/*
 	원래 기능구현한 함수들 여기 있었음 AccountManager.java로 이동 
@@ -12,7 +12,7 @@ public class BankingSystemMain {
 	public static void main(String[]ars) {
 		boolean run = true;
 		//인스턴스 생성
-		AccountManager accMgr = new AccountManager();
+		AccountManager accMgr = new AccountManager(); 
 		
 		
 		//사용자가 종료할때까지 프로그램은 실행이 유지 => 무한루프
