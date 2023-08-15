@@ -18,7 +18,7 @@ public abstract class Account implements Serializable{
 	}
 	//멤버메소드 : 전체계좌정보출력
 	public void showAccInfo() {
-		System.out.println("-----------");
+		System.out.println("---------------");
 		System.out.println("계좌번호: " + accountNumber);
 		System.out.println("고객이름: " + customName);
 		System.out.println("잔 고: " + accMoney);

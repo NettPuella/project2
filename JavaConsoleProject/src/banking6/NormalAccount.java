@@ -18,7 +18,7 @@ public class NormalAccount extends Account {
 		super.showAccInfo();
 		
 		System.out.println("기본이자: " + interRate + "%");
-		System.out.println("----------------");
+		System.out.println("---------------");
 	}
 	@Override
 	public boolean plusAccMoney(int money) {

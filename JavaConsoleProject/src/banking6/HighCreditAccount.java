@@ -21,7 +21,7 @@ public class HighCreditAccount extends Account{
 			
 			System.out.println("기본이자: " + interRate + "%");
 			System.out.println("신용등급(A,B,C등급):" + creditGrade );
-			System.out.println("----------------");
+			System.out.println("---------------");
 		}
 		@Override
 		public boolean plusAccMoney(int money) {
