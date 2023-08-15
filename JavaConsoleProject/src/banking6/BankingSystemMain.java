@@ -95,7 +95,7 @@ public class BankingSystemMain {
 			}	
 			catch (InputMismatchException e) {
 				//숫자말고 문자로 입력할때 예외처리를 해라 -InputMismatchException
-				System.out.println("메뉴선택할때 문자를 입력할 수 없다.");
+				System.out.println("메뉴선택할때 문자를 입력할 수 없습니다.");
 				accMgr.scan.nextLine();
 			}
 		}

@@ -8,9 +8,10 @@ import java.io.PrintWriter;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Iterator;
-//기능
 import java.util.Scanner;
 
+
+//기능//
 public class AccountManager {
 	//키보드 입력
 	public static Scanner scan = new Scanner(System.in);
@@ -120,9 +121,13 @@ public class AccountManager {
 				System.out.println("새로운 정보로 업데이트 되었습니다.");
 			}
 			//NO를 눌렀을때
-			else {
+			else if(input.equalsIgnoreCase("NO")){
 				//기존의 정보를 유지한다. 즉 새로운 정보는 무시된다.
 				System.out.println("기존 계좌로 유지하겠습니다.");
+			}
+			else {
+				//기존의 정보를 유지한다. 재선택 메세지 출력
+				System.out.println("YES 또는 No 중 선택해 주세요");
 			}
 		}
 		//중복계좌 없음 - 계좌개설
